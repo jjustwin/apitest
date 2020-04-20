@@ -5,7 +5,7 @@
 * 扩展能力不足。开源的接口测试工具无法实现扩展功能。比如，我们想生成不同格式的测试报告，想将测试报告发送到指定邮箱，又想让接口测试集成到CI中，做持续集成定时任务。
 
 ## 测试框架处理流程
-![Image](https://github.com/yingoja/DemoAPI/blob/master/share/screeshots/frame.JPG)
+![Image](https://github.com/jjustwin/apitest/blob/master/share/screeshots/frame.JPG)
 
 测试框架处理过程如下：
 * 首先初始化清空数据库表的数据，向数据库插入测试数据；
@@ -27,9 +27,9 @@
 
 ## 测试结果展示
 * HTML报告
-![Image](https://github.com/yingoja/DemoAPI/blob/master/share/screeshots/report1.JPG)
-![Image](https://github.com/yingoja/DemoAPI/blob/master/share/screeshots/report.JPG)
+![Image](https://github.com/jjustwin/apitest/blob/master/share/screeshots/report1.JPG)
+![Image](https://github.com/jjustwin/apitest/blob/master/share/screeshots/report.JPG)
 * Excel用例结果
-![Image](https://github.com/yingoja/DemoAPI/blob/master/share/screeshots/excel.JPG)
+![Image](https://github.com/jjustwin/apitest/blob/master/share/screeshots/excel.JPG)
 * 邮件收到的测试报告
-![Image](https://github.com/yingoja/DemoAPI/blob/master/share/screeshots/mail.JPG)
+![Image](https://github.com/jjustwin/apitest/blob/master/share/screeshots/mail.JPG)
