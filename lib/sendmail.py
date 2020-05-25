@@ -47,7 +47,7 @@ def send_mail(file_new):
     msg['to'] = RECEIVER
 
     try:
-        server = smtplib.SMTP(host='smtp.163.com')
+        server = smtplib.SMTP(host='smtp.163.com')#python3中需要添加此参数，否则报错
         server.connect(HOST)
         server.starttls()
         server.login(USER,PWD)
